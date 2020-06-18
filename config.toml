@@ -1,0 +1,68 @@
+baseurl = "/"
+title = "Business Title"
+author = "Business Author Name"
+defaultContentLanguage = "en"
+language = "en-US"
+paginate = 3
+
+theme = ""
+
+[params]
+    description = "Business description."
+    favicon = ""
+    logo = ""
+
+[params.hero]
+    textColor = "" # Empty for default color
+
+[params.cta] # Call To Action 
+    show = false
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.form] # Contact form
+    netlify = false
+    action = ""
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.contact] # Contact info
+    email = "savita@coachingsaga.com"
+    phone = ""
+    skype = ""
+    address = ""
+
+[params.social]
+    twitter   = ""
+    facebook  = ""
+    github    = ""
+    instagram = ""
+    youtube   = ""
+    linkedin  = ""
+    meetup    = ""
+    medium    = ""
+
+[params.copy] # Copyright
+    copy = "" # Empty for default content
