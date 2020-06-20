@@ -5,7 +5,7 @@ defaultContentLanguage = "en"
 language = "en-US"
 paginate = 3
 
-theme = ""
+theme = "template-theme-hermit"
 
 [params]
     description = "Business description."
@@ -49,13 +49,13 @@ theme = ""
     dateFormat = "Monday, Jan, 2006"
 
 [params.contact] # Contact info
-    email = "savita@coachingsaga.com"
+    email = ""
     phone = ""
     skype = ""
     address = ""
 
 [params.social]
-    twitter   = ""
+    twitter   = "https://twitter.com/"
     facebook  = ""
     github    = ""
     instagram = ""
@@ -66,3 +66,6 @@ theme = ""
 
 [params.copy] # Copyright
     copy = "" # Empty for default content
+
+[taxonomies]
+  tag = "tags"    

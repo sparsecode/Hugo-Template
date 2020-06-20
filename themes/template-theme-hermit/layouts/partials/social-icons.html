@@ -1,0 +1,12 @@
+{{ if $.Site.Params.social }}
+{{ $items := $.Site.Params.social }}
+{{ $len := (len $items) }}
+
+{{ if gt $len 0 }}
+    {{ range $k, $v := $items }}
+    {{ if $v}}
+        <a href="{{ $v | safeURL }}" target="_blank" rel="noopener me" title="{{ $k | humanize }}">{{ partial "svg.html" . }}</a>
+    {{ end }}
+    {{ end }}
+{{ end }}
+{{ end }}
